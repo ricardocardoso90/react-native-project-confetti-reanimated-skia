@@ -7,27 +7,11 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Confetti
-        autoplay={false}
-        ref={confettiRef}
-        colors={['#FF0000', '#0000FF']}
-        fadeOutOnEnd
-      />
+      <Confetti autoplay={false} ref={confettiRef} />
 
-      <Button
-        title='Iniciar'
-        onPress={() => confettiRef.current?.restart()}
-      />
-
-      <Button
-        title='Pausar'
-        onPress={() => confettiRef.current?.pause()}
-      />
-
-      <Button
-        title='Continuar'
-        onPress={() => confettiRef.current?.resume()}
-      />
+      <Button title='Iniciar' onPress={() => confettiRef.current?.restart()} />
+      <Button title='Pausar' onPress={() => confettiRef.current?.pause()} />
+      <Button title='Continuar' onPress={() => confettiRef.current?.resume()} />
     </View>
   );
 }
@@ -35,8 +19,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    gap: 24,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#fff',
   },
 });
