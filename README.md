@@ -1,4 +1,4 @@
-## Projeto: Mapas
+## Projeto: Confetes
 
 **Tecnologias utilizadas:**
 
