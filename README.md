@@ -15,7 +15,7 @@ Este projeto demonstra como implementar uma animação de confetes em React Nati
 
 ---
 
-## 🧰 FuncionalidadesFuncionalidades do Projeto
+## 🧰 Funcionalidades do Projeto
 - 🎉 Animação de confetes usando partículas personalizadas.
 
 - ⚙️ Alto desempenho com uso de React Native Skia, aproveitando renderização via GPU.
