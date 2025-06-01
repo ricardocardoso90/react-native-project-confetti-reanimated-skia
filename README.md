@@ -49,7 +49,7 @@ Este projeto demonstra como implementar uma animação de confetes em React Nati
 
 ## Executando o Projeto
 
-1. Inicie o servidor de desenvolvimento::
+1. Inicie o servidor de desenvolvimento:
 
    ```bash
    npm start
