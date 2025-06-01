@@ -1,10 +1,10 @@
-# 🎉 React Native Confetti com Reanimated e Skia
+# React Native Confetti com Reanimated e Skia
 
 Este projeto demonstra como implementar uma animação de confetes em React Native utilizando **Reanimated** e **Skia**, oferecendo uma experiência visual fluida e de alto desempenho. Ideal para celebrações, conquistas ou qualquer momento especial em seu aplicativo.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
@@ -15,31 +15,44 @@ Este projeto demonstra como implementar uma animação de confetes em React Nati
 
 ---
 
-## 🧰 Funcionalidades do Projeto
-- 🎉 Animação de confetes usando partículas personalizadas.
+## Funcionalidades do Projeto
 
-- ⚙️ Alto desempenho com uso de React Native Skia, aproveitando renderização via GPU.
+- Animação de confetes usando partículas personalizadas.
 
-- 🌀 Animações suaves e fluidas com React Native Reanimated.
+- Alto desempenho com uso de React Native Skia, aproveitando renderização via GPU.
 
-- 📱 Compatível com Expo (sem necessidade de eject).
+- Animações suaves e fluidas com React Native Reanimated.
 
-- 🧩 Componentização do efeito de confete, facilitando reutilização em múltiplas telas ou projetos.
+- Compatível com Expo (sem necessidade de eject).
 
-- 🎨 Estilos customizáveis de partículas: cor, velocidade, direção, quantidade, etc.
+- Componentização do efeito de confete, facilitando reutilização em múltiplas telas ou projetos.
 
-- 🔄 Animação contínua ou controlada por interação (ex: botão de disparo).
+- Estilos customizáveis de partículas: cor, velocidade, direção, quantidade, etc.
 
-- 🚀 Tempo de resposta instantâneo com toque ou eventos programados.
+- Animação contínua ou controlada por interação (ex: botão de disparo).
 
-- 🧪 Projeto ideal para testes e integração com eventos de sucesso (ex: conclusão de tarefa, conquista, etc.).
+- Tempo de resposta instantâneo com toque ou eventos programados.
+
+- Projeto ideal para testes e integração com eventos de sucesso (ex: conclusão de tarefa, conquista, etc.).
 
 ---
 
-## 🔧 Instalação
+## Instalação
 
-Clone o repositório e instale as dependências:
+1. Instale as dependências:
 
-```bash
-npx create-expo-app@latest
-npm install
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+## Executando o Projeto
+
+1. Inicie o servidor de desenvolvimento::
+
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
